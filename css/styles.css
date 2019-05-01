@@ -272,19 +272,17 @@ a {
     margin: 0 auto; }
 
   .site__hero__text {
-    text-align: center;
     margin-bottom: 2em; }
 
-  .row * {
-    text-align: center; }
+  .site-foot__email a {
+    font-size: 0.95rem; }
 
   .project::after {
     left: 50%;
     transform: translateX(-50%); }
 
   .btn__group {
-    width: 100%;
-    justify-content: center; }
+    width: 100%; }
 
   .site-foot__links .links__list a {
     display: block;
