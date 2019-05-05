@@ -2,7 +2,6 @@
 @import '../fonts/CircularStd/stylesheet.css';
 
 // Variables
-
 $light: #faf6eb;
 $red: #d96f66;
 $yellow: #f2b05e;
@@ -19,33 +18,11 @@ $instagram: #c13584;
 $linkedin: #0077b5;
 $github: #4078c0;
 
-$font: 'CircularSTD', sans-serif;
-
-
-// Styles
+$font: 'CircularSTD',sans-serif;
 
 // Base
-
-* {box-sizing:border-box}
-
-html {
-  scroll-behavior: smooth;
-}
-
-::selection {
-  background: $primary;
-  color: $accent;
-}
-
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-::-webkit-scrollbar-thumb {
-  background: $primary;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: $blue;
-}
+* {box-sizing: border-box}
+html {scroll-behavior: smooth;}
 
 body {
   min-height: 100vh;
@@ -53,7 +30,7 @@ body {
   position: relative;
   background-color: $accent;
   font-family: $font;
-  color: $blue;
+  color: $text--dark;
   overflow-x: hidden;
 
   text-rendering: auto;
@@ -67,6 +44,7 @@ a {
   text-decoration: none;
   transition: all 100ms ease;
 }
+
 .big-link {
   position: relative;
   font-size: 1.5rem;
@@ -82,6 +60,7 @@ a {
     height: 3px;
     z-index: 0;
   }
+
   &::after {
     position: absolute;
     display: block;
@@ -95,23 +74,21 @@ a {
     transform: scaleX(0);
     transition: transform 300ms cubic-bezier(0.77, 0, 0.175, 1);
   }
-  &:hover {
-    &::after {
-      transform: scaleX(1);
-    }
+
+  &:hover::after {
+    transform: scaleX(1);
   }
 }
 
-.center-xs > * {
-  text-align: left;
-}
-
+.center-xs>* {text-align: left;}
 .page-section {padding: 5em 0;}
 #intro {background: $accent;}
+
 #services {
   background-color: $primary;
   color: $accent;
 }
+
 .site-nav {
   width: 100%;
   padding: 3em 0;
@@ -122,10 +99,9 @@ a {
     justify-content: space-between;
     align-items: center;
   }
-
   &__brand svg {
     width: 1.7em;
-    fill: $blue;
+    fill: $text--dark;
   }
   &__list {
     display: flex;
@@ -133,21 +109,16 @@ a {
     list-style-type: none;
 
     .nav-item {
-      color: $blue;
+      color: $text--dark;
       font-weight: bold;
       margin-left: 1em;
     }
-    .nav-item:hover {
-      color: $primary;
-    }
+    .nav-item:hover {color: $primary;}
   }
 }
 
 .site__hero {
 
-  &__text {
-
-  }
   &__img .img__container {
     position: relative;
     z-index: 1;
@@ -165,7 +136,7 @@ a {
       width: 100%;
       height: 100%;
       background: $blue;
-      transform: translate(-15px,-15px);
+      transform: translate(-15px, -15px);
       z-index: -1;
     }
   }
@@ -173,55 +144,47 @@ a {
 
 .site-foot {
 
-
   &__email {
     padding: 3em 0;
     background-color: $blue;
 
-    h1,p {
-      color: $accent;
-    }
-    h1 {margin-bottom:5px}
-    p {margin:0 0 3em 0;}
+    h1,
+    p {color: $accent;}
+
+    h1 {margin-bottom: 5px;}
+    p {margin: 0 0 3em 0;}
+
     .email {
-      &::before {
-        background: rgba($primary,0.35)
-      }
-      &::after {
-        background: $primary;
-      }
+      &::before {background: rgba($primary, 0.35);}
+      &::after {background: $primary;}
     }
   }
+
   &__links {
     display: flex;
     padding: 3em 0;
     background-color: $yellow;
 
     a {
-      color:$blue;
+      color: $text--dark;
       margin-right: 1em;
     }
-    .dribbble:hover {color: $dribbble;}
+    .dribbble:hover  {color: $dribbble;}
     .instagram:hover {color: $instagram;}
-    .linkedin:hover {color: $linkedin;}
-    .github:hover {color: $github;}
+    .linkedin:hover  {color: $linkedin;}
+    .github:hover    {color: $github;}
   }
+
   &__end {
     padding: 0.5em 0;
     background-color: $accent;
 
     @keyframes heartbeat {
-      0% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 1;
-      }
+      0% {opacity: 0;}
+      100% {opacity: 1;}
     }
-    p {cursor:default}
-    p:hover .heart {
-      animation: heartbeat 0.6s infinite;
-    }
+    p {cursor: default}
+    p:hover .heart {animation: heartbeat 0.6s infinite;}
     .heart {
       color: $primary;
       font-size: 1.1rem;
@@ -233,36 +196,33 @@ a {
 
 // Services
 .services__container {margin-top: 5em;}
+
 .service {
   margin-bottom: 2em;
-  padding-right: 3em!important;
+  padding-right: 3em !important;
 
   &__number {
-    color: $blue;
+    color: $text--dark;
     font-weight: 900;
     font-size: 5rem;
     margin: 0;
-    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
   }
   &__title {margin-top: 0}
   &__description {font-size: 1.05rem;}
 }
 
 // Projects
-.projects__container {
-  flex-direction: column!important;
-}
+.projects__container {flex-direction: column !important;}
 .project {
   position: relative;
-  padding: 2em 0!important;
+  padding: 2em 0 !important;
 
-  &__title {}
   &__date {
     margin-left: 0.5em;
     color: $primary;
-    font-weight: 400!important;
+    font-weight: 400 !important;
   }
-  &__description {}
   &::after {
     position: absolute;
     display: block;
@@ -271,24 +231,20 @@ a {
     left: 0;
     width: 200px;
     height: 1px;
-    border-top: 1px solid rgba(black,0.08);
-    border-bottom: 1px solid rgba(white,0.5);
+    border-top: 1px solid rgba(black, 0.08);
+    border-bottom: 1px solid rgba(white, 0.5);
     border-radius: 50px;
   }
 }
 
 // Testimonials
 
-.testimonial__container {
-  margin-top: 55px;
-}
-
+.testimonial__container {margin-top: 55px;}
 .testimonial {
   position: relative;
 
-  &__title {color: $primary}
+  &__title {color: $primary;}
   &__author {font-style: italic;}
-
   &::after {
     position: absolute;
     display: block;
@@ -297,7 +253,7 @@ a {
     left: -35px;
     font-size: 200px;
     font-weight: 900;
-    color: rgba($blue,0.1);
+    color: rgba($text--dark, 0.1);
     z-index: -1;
   }
 }
@@ -308,110 +264,48 @@ a {
   display: flex;
   flex-direction: row;
 }
+
 .btn {
   display: inline-block;
   padding: 0.7em 1em;
   margin-right: 0.5em;
-  color: darken($primary,10%);
+  color: darken($primary, 10%);
   font-weight: 500;
   border-radius: 6px;
   transition: all 100ms ease;
 
   &--transparent {
     background: transparent;
-    &:hover {
-      color: darken($primary,25%);
-    }
+
+    &:hover {color: darken($primary, 25%);}
   }
 
   &--white {
     background: white;
+
     &:hover {
       background: $primary;
       color: white;
-      box-shadow: 5px 5px 10px rgba($primary,0.35);
+      box-shadow: 5px 5px 10px rgba($primary, 0.35);
     }
   }
 }
-
-// Media Queries
-
-@media (max-width: 1105px) {
-  .about__img {
-    position: relative!important;
-    width: 100%!important;
-  }
-  .about__text {
-    padding-top: 2em!important;
-    width: 100%!important;
-  }
-}
-
-// Medium Screens / Tablets
-@media (max-width: 1023px) {
-  .row.site__hero__container {flex-direction:column-reverse}
-  .site__hero__img {margin: 0 auto 3em auto;}
-  .service {padding-right: 0!important;}
-  .service__number {font-size:3rem;}
-}
-// Small Screens / Phones
-@media (max-width: 767px) {
-  .row.site__hero__container {flex-direction:column}
-  .site__hero__img {margin: 0 auto}
-  .site__hero__text {
-    margin-bottom: 2em
-  }
-  .site-foot__email a {font-size: 0.95rem}
-  .project::after {
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  .btn__group {
-    width: 100%;
-  }
-  .site-foot__links .links__list {
-
-    a {
-      display: block;
-      padding: 0.5em 0;
-    }
-    // .linkedin {color: $linkedin}
-    // .dribbble {color: $dribbble}
-    // .instagram {color: $instagram}
-    // .github {color: $github}
-  }
-}
-
-
 
 // Projects Page
 
-.project__details {
-  margin: 5em 0 10em 0;
-}
-.project__tags {
-  list-style-type: none;
-  padding: 0;
-  display: flex;
+.project__details {margin: 5em 0 10em 0;}
 
-  li:not(:last-child)::after {
-    content: "/";
-    margin: auto 0.5em;
-  }
-}
 .project__content {
   margin-bottom: 5em;
 
-  & > img {
+  &>img {
     margin: 1em 0;
-    box-shadow: 10px 10px 35px rgba(black,0.1);
+    box-shadow: 10px 10px 35px rgba(black, 0.1);
     border-radius: 5px;
   }
 }
 
-
 // About Page
-
 .about__container {
   position: relative;
   margin-bottom: 5em;
@@ -426,25 +320,23 @@ a {
 
   img {
     width: 100%;
-    box-shadow: 10px 10px 35px rgba(black,0.35);
+    box-shadow: 10px 10px 35px rgba(black, 0.35);
   }
 }
 .about__text {
   padding-top: 7em;
   width: 550px
 }
-
 .error__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
 
-  .btn {
-    margin-top: 2em;
-  }
+  .btn {margin-top: 2em;}
 }
 
+// 404 Page
 .error {
   position: relative;
   display: flex;
@@ -462,20 +354,20 @@ a {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba($primary,0.25);
+    background: rgba($primary, 0.25);
     border-radius: 100%;
     z-index: -1;
   }
+
   &::after {
     content: "404";
     font-size: 135px;
     font-weight: 900;
     color: $primary;
-    text-shadow: 10px 10px 0px $blue;
+    text-shadow: 10px 10px 0px $text--dark;
     z-index: 1;
   }
 }
-
 .mountains {
   width: 100%;
   height: 100px;
@@ -486,4 +378,41 @@ a {
   background-image: url("../Group 27.png");
   background-size: cover;
   background-position: center;
+}
+
+// Media Queries
+@media (max-width: 1105px) {
+  .about__img {
+    position: relative !important;
+    width: 100% !important;
+  }
+  .about__text {
+    padding-top: 2em !important;
+    width: 100% !important;
+  }
+}
+
+// Medium Screens / Tablets
+@media (max-width: 1023px) {
+  .row.site__hero__container {flex-direction: column-reverse}
+  .site__hero__img {margin: 0 auto 3em auto;}
+  .service {padding-right: 0 !important;}
+  .service__number {font-size: 3rem;}
+}
+
+// Small Screens / Phones
+@media (max-width: 767px) {
+  .row.site__hero__container {flex-direction: column;}
+  .site__hero__img {margin: 0 auto;}
+  .site__hero__text {margin-bottom: 2em;}
+  .site-foot__email a {font-size: 0.95rem;}
+  .project::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .btn__group {width: 100%;}
+  .site-foot__links .links__list a{
+    display: block;
+    padding: 0.5em 0;
+  }
 }
