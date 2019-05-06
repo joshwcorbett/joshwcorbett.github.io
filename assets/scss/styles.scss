@@ -119,6 +119,9 @@ a {
 
 .site__hero {
 
+  .btn {
+    margin-top: 1.5em;
+  }
   &__img .img__container {
     position: relative;
     z-index: 1;
@@ -375,9 +378,10 @@ a {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-image: url("../Group 27.png");
+  background-image: url("../img/mountains.png");
   background-size: cover;
   background-position: center;
+  z-index: -1;
 }
 
 // Media Queries
