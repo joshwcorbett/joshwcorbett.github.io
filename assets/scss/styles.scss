@@ -266,6 +266,9 @@ a {
   margin-top: 2em;
   display: flex;
   flex-direction: row;
+  align-items: center;
+
+  p {margin:0}
 }
 
 .btn {
@@ -291,6 +294,12 @@ a {
       color: white;
       box-shadow: 5px 5px 10px rgba($primary, 0.35);
     }
+  }
+  &--disabled {
+    background: #ebebeb;
+    color: $blue;
+    cursor: default;
+    pointer-events: none;
   }
 }
 
