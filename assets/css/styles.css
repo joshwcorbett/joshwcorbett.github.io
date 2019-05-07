@@ -213,7 +213,10 @@ a {
 .btn__group {
   margin-top: 2em;
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  align-items: center; }
+  .btn__group p {
+    margin: 0; }
 
 .btn {
   display: inline-block;
@@ -233,6 +236,11 @@ a {
       background: #d96f66;
       color: white;
       box-shadow: 5px 5px 10px rgba(217, 111, 102, 0.35); }
+  .btn--disabled {
+    background: #ebebeb;
+    color: #113559;
+    cursor: default;
+    pointer-events: none; }
 
 .project__details {
   margin: 5em 0 10em 0; }
