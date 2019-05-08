@@ -1,5 +1,6 @@
 
 @import '../fonts/CircularStd/stylesheet.css';
+@import 'flexboxgrid.min.css';
 
 // Variables
 $light: #faf6eb;
@@ -23,7 +24,6 @@ $font: 'CircularSTD',sans-serif;
 // Base
 * {box-sizing: border-box}
 html {scroll-behavior: smooth;}
-
 body {
   min-height: 100vh;
   margin: 0;
@@ -32,7 +32,6 @@ body {
   font-family: $font;
   color: $text--dark;
   overflow-x: hidden;
-
   text-rendering: auto;
   text-rendering: optimizeSpeed;
   text-rendering: optimizeLegibility;
@@ -44,6 +43,7 @@ a {
   text-decoration: none;
   transition: all 100ms ease;
 }
+h1,h2,h3,h4,h5,h6 {margin-top:0}
 
 .big-link {
   position: relative;
@@ -60,7 +60,6 @@ a {
     height: 3px;
     z-index: 0;
   }
-
   &::after {
     position: absolute;
     display: block;
@@ -74,16 +73,12 @@ a {
     transform: scaleX(0);
     transition: transform 300ms cubic-bezier(0.77, 0, 0.175, 1);
   }
-
-  &:hover::after {
-    transform: scaleX(1);
-  }
+  &:hover::after {transform: scaleX(1);}
 }
 
 .center-xs>* {text-align: left;}
 .page-section {padding: 5em 0;}
 #intro {background: $accent;}
-
 #services {
   background-color: $primary;
   color: $accent;
@@ -119,9 +114,7 @@ a {
 
 .site__hero {
 
-  .btn {
-    margin-top: 1.5em;
-  }
+  .btn {margin-top: 1.5em;}
   &__img .img__container {
     position: relative;
     z-index: 1;
@@ -153,10 +146,8 @@ a {
 
     h1,
     p {color: $accent;}
-
     h1 {margin-bottom: 5px;}
     p {margin: 0 0 3em 0;}
-
     .email {
       &::before {background: rgba($primary, 0.35);}
       &::after {background: $primary;}
@@ -186,6 +177,7 @@ a {
       0% {opacity: 0;}
       100% {opacity: 1;}
     }
+
     p {cursor: default}
     p:hover .heart {animation: heartbeat 0.6s infinite;}
     .heart {
@@ -241,7 +233,6 @@ a {
 }
 
 // Testimonials
-
 .testimonial__container {margin-top: 55px;}
 .testimonial {
   position: relative;
@@ -276,7 +267,8 @@ a {
   padding: 0.7em 1em;
   margin-right: 0.5em;
   color: darken($primary, 10%);
-  font-weight: 500;
+  font-weight: 600;
+  letter-spacing: 0.02rem;
   border-radius: 6px;
   transition: all 100ms ease;
 
@@ -304,9 +296,7 @@ a {
 }
 
 // Projects Page
-
 .project__details {margin: 5em 0 10em 0;}
-
 .project__content {
   margin-bottom: 5em;
 
@@ -370,7 +360,6 @@ a {
     border-radius: 100%;
     z-index: -1;
   }
-
   &::after {
     content: "404";
     font-size: 135px;
