@@ -14,12 +14,9 @@ My Primary Goals for this redesign:
 - Create a better design language,
 - Declutter the navigation and browsing experience,
 
-bla <br>
-bla <br>
-bla <br>
-bla <br>
-bla <br>
-bla <br>
-bla <br>
-bla <br>
-bla <br>
+With these in mind, I went through a few revisions and landed on this.
+
+![Amazon Video App Design][amazon-video-image]
+Dribbble Link: [Amazon Prime Video | App Redesign](https://dribbble.com/shots/6406435-Amazon-Prime-Video-App-Redesign)
+
+[amazon-video-image]: ../assets/img/amazon-video.png
