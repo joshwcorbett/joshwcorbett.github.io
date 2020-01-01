@@ -1,0 +1,50 @@
+title:            Josh Corbett
+email:            joshwcorbett@icloud.com
+description:      I’m Josh, and I love designing and developing beautiful, functional websites for individuals and small businesses in Northwest Montana.
+baseurl:          "" # the subpath of your site, e.g. /blog
+url:              "https://joshcorbett.com" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  joshwcorbett
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - sprockets-sass
+  - jekyll-sitemap
+  - jekyll-minifier
+
+disabled_plugins:
+  - jekyll-admin
+
+collections:
+  projects:
+    output: true
+    permalink: /project/:title
+  articles:
+    output: true
+    permalink: /article/:title
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: "articles"
+    values:
+      layout: post
+
+sass:
+  sass_dir: assets/css/
+  style: compressed
+
+jekyll_admin:
+  hidden_links:
+    - articles
+    - projects
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration

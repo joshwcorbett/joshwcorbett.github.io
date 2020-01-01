@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="post__bg w-100" style="background-image: url('/assets/img/{{page.image}}')"></div>
+<div class="post">
+  <div class="post__content">
+    <div class="post__content__header">
+      <h4 class="super caps post-title w-100 center-text">{{ page.title }}</h4>
+      <div class="post-tags w-100 center-text">
+        {% if page.tags.size > 0 %}
+          Tag{% if page.tags.size > 1 %}s{% endif %}:
+          {{ page.tags | sort | join: ", " }}
+        {% endif %}
+      </div>
+    </div>
+
+    {{ content }}
+
+  </div>
+</div>

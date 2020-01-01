@@ -1,181 +1,100 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+title: home
+---
 
-<head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-103579561-1"></script>
-	<script async>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+<div class="hero" id="intro">
 
-	  gtag('config', 'UA-103579561-1');
-	</script>
+  <h1 class="super caps hero__text">I Make Digital Experiences</h1>
 
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Cool Center Graphic -->
+  <img id="coolGraphicSlashes" src="assets/img/coolgraphic-slashes.svg">
+  <img id="coolGraphicCircle" src="assets/img/coolgraphic-circle.svg">
 
-	<title>Josh Corbett | Web Designer and Developer</title>
+  <!-- All the fun shapes -->
+  <img id="semicircle" src="assets/img/semicircle.svg">
+  <img id="semicircle-2" src="assets/img/semicircle-2.svg">
+  <img id="circle" src="assets/img/circle.svg">
+  <img id="triangle" src="assets/img/triangle.svg">
+  <img id="square-1" src="assets/img/square-1.svg">
+  <img id="square-2" src="assets/img/square-2.svg">
 
-	<link rel="icon" type="image/png" href="assets/img/favicon-32x32.png" sizes="32x32" />
+  <a href="#projects" class="btn btn--white hero__btn uppercase super">
+    No Way! Show Me
+    <svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" stroke-miterlimit="1.5" clip-rule="evenodd"
+      viewBox="0 0 32 27">
+      <defs />
+      <path fill="none" stroke="#000" stroke-width="5.98" d="M1117.84 854.94l10.62 10.62 10.62-10.62-10.62 10.62v-26.309"
+        transform="matrix(0 -.83616 .83616 0 -697.239 956.96)" />
+    </svg>
+  </a>
+</div>
 
-	<meta name="description" content="Josh Corbett is a website designer and developer from Montana’s Flathead Valley. He's been serving local individuals and businesses to get them stylish websites and logos.">
-	<meta name="keywords" content="web designer near me, web design services, logo design">
+<div class="site-section container" id="projects">
+  <h2 class="w-100 center-text header uppercase super">Projects</h2>
 
-	<meta property="og:title" content="Josh Corbett | Web Designer and Developer" />
-	<meta property="og:description" content="Josh Corbett is a website designer and developer from Montana’s Flathead Valley. He's been serving local individuals and businesses to get them stylish websites and logos." />
-	<meta property="og:url" content="https://joshcorbett.com">
+  <div class="projects w-100">
+    {% for project in site.projects %}
+      <a href="{{project.url}}" class="projects__item">
+        <div class="projects__item__img">
+          <img src="{{ site.baseurl }}/assets/img/{{project.image}}" alt="{{ project.title }} image">
+        </div>
+        <div class="projects__item__info">
+          <span class="projects__item__info__title">{{ project.title }}</span>
+          <div class="projects__item__info__tags">
+            {% if project.tags.size > 0 %}
+              Tag{% if project.tags.size > 1 %}s{% endif %}:
+              {{ project.tags | sort | join: ", " }}
+            {% endif %}
+          </div>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</div>
 
-	<link rel="stylesheet" href="assets/css/styles.css">
-</head>
+<div class="site-section container" id="articles">
+  <h2 class="w-100 center-text header uppercase super">Articles</h2>
 
-<body>
-
-	<!--
-
-	Hi There!
-	If you're seeing this, you're a huge nerd like me!
-	You should hit me up via email so we can become best friends.
-
-  -->
-
-	<nav class="site-nav row center-xs" role="navigation">
-		<div class="col-xs-8 col-sm-10 site-nav__nav">
-			<a href="/" class="site-nav__brand">
-				<svg xmlns="http://www.w3.org/2000/svg" width="31.486" height="42.287" viewBox="0 0 31.486 42.287">
-					<g id="Group_28" data-name="Group 28" transform="translate(-147.981 -252)">
-						<path id="Path_11" data-name="Path 11" d="M2649.4,1275.234v17.7h-8.847v-8.848H2631.7v-8.848Z"
-							transform="translate(-2469.931 -1023.234)" fill="#d96f66" fill-rule="evenodd" />
-						<path id="Path_12" data-name="Path 12"
-							d="M1993.444,1472.984h8.848a15.743,15.743,0,1,1-31.486,0h8.848a6.9,6.9,0,0,0,13.79,0Z"
-							transform="translate(-1822.825 -1194.44)" fill="#113559" fill-rule="evenodd" />
-					</g>
-				</svg>
-			</a>
-			<ul class="site-nav__list">
-				<li><a href="#projects" class="nav-item">Projects</a></li>
-				<li><a href="/about" class="nav-item">About</a></li>
-			</ul>
-		</div>
-	</nav>
-
-	<section class="row page-section center-xs site__hero" id="intro">
-		<div class="col-xs-8 row between-md center-xs site__hero__container">
-			<div class="col-md-7 site__hero__text">
-				<h1>I’m <u>Josh Corbett</u>, a local <i>website designer</i> and <i>developer</i> from Montana’s Flathead Valley. I’ve been serving local
-				individuals and businesses to get them stylish websites and logos.</h1>
-				<a href="#contact" class="btn btn--white">Get in Touch</a>
-			</div>
-			<div class="col-md-4 col-sm-8 site__hero__img">
-				<div class="img__container">
-					<img src="assets/img/image1.jpg" alt="My Handsome Face">
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="row page-section center-xs" id="services">
-		<div class="col-xs-8">
-			<h2>My Services</h2>
-			<div class="services__container row">
-				<div class="service col-xs-12 col-md-6">
-					<span class="service__number">01</span>
-					<h1 class="service__title">User Experience Design</h1>
-					<p class="service__description">I start every project by making it ‘make sense’ to everybody who isn’t me, because an awesome design is one thing, but
-					that doesn’t change how usable and accessible it is to your visitors while they interact with the site.</p>
-				</div>
-				<div class="service col-xs-12 col-md-6">
-					<span class="service__number">02</span>
-					<h1 class="service__title">User Interface Design</h1>
-					<p class="service__description">I create designs that are consistent, elegant, and interactive.</p>
-				</div>
-				<div class="service col-xs-12 col-md-6">
-					<span class="service__number">03</span>
-					<h1 class="service__title">Full Stack Development</h1>
-					<p class="service__description">In addition to creating good website designs, I can also work behind the curtain with the Front-End, as well as the
-					Back-End.</p>
-				</div>
-				<div class="service col-xs-12 col-md-6">
-					<span class="service__number">04</span>
-					<h1 class="service__title">Search Engine Optimization (SEO)</h1>
-					<p class="service__description">Having an awesome website doesn’t do much good if it isn’t getting traffic. SEO is all about optimizing and marketing
-					your website for search engines.</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="row page-section center-xs" id="projects">
-		<div class="col-xs-8">
-
-			<div class="row center-xs start-sm projects__container">
-				<h2>Featured Projects</h2>
-
-				<div class="project col-md-6 col-sm-8 col-xs-12">
-					<h1 class="project__title">Elle-Jé<span class="project__date">2019 - Present</span></h1>
-					<p class="project__description">Elle-Jé is a sculptor and artist who recently moved from California to Columbia Falls, Montana. She was in need of a
-					website and sought business advice for presenting and marketing her brand. She has several series of sculptures that all
-					play into emotion.</p>
-					<div class="btn__group">
-						<a rel="noopener" target="_blank" href="#0" class="btn btn--disabled">Work In Progress</a>
-					</div>
-				</div>
-
-				<div class="project col-md-6 col-sm-8 col-xs-12">
-					<h1 class="project__title">Canvas Church<span class="project__date">2019</span></h1>
-					<p class="project__description">Canvas Church is a growing multiple-campus church based in the Flathead Valley. I reached out to Canvas Church about
-					improving their current website when they were in the beginning stages of a redesign. With my help, their website is
-					more interactive and user-friendly, and ranks better on Google.</p>
-					<div class="btn__group">
-						<a rel="noopener" target="_blank" href="https://canvas.church" class="btn btn--white">View Website</a>
-					</div>
-				</div>
-
-				<div class="project col-md-6 col-sm-8 col-xs-12">
-					<h1 class="project__title">Fresh Life Church<span class="project__date">2016</span></h1>
-					<p class="project__description">I had the privilege of beginning my career in web development as an apprentice under the lead Web Designer and Developer
-					at Fresh Life Church. I soon began working on small projects, while the lead would work on the larger projects. The
-					opportunity to become part of Fresh Life Church’s creative team was the main influence for starting my passion in web
-					design.</p>
-				</div>
-
-		</div>
-	</section>
-
-	<section class="row page-section center-xs " id="testimonials">
-		<div class="col-xs-8">
-			<h1>Testimonials</h1>
-			<div class="testimonial__container row">
-				<div class="col-xs-12 col-md-6 testimonial">
-  				<p class="testimonial__content">Josh is a great designer and worked very well with our team. He did a great job of understanding the look we were going for, but also brought new creative ideas that pushed our design to the next level.</p>
-					<p class="testimonial__author">Justin Stewart, Canvas Church</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<footer class="site-foot" id="contact">
-		<div class="site-foot__email row center-xs">
-			<div class="col-xs-8">
-				<h1>Get In Touch</h1>
-				<p>Let's start something awesome together!</p>
-				<a href="mailto:joshwcorbett@icloud.com" class="big-link email">joshwcorbett@icloud.com</a>
-			</div>
-		</div>
-		<div class="site-foot__links row center-xs">
-			<div class="col-xs-8 links__list">
-        <a rel="noopener" target="_blank" href="https://www.linkedin.com/in/joshwcorbett/" class="big-link linkedin">LinkedIn</a>
-        <a rel="noopener" target="_blank" href="https://dribbble.com/joshwcorbett" class="big-link dribbble">Dribbble</a>
-        <a rel="noopener" target="_blank" href="https://instagram.com/joshwcorbett" class="big-link instagram">Instagram</a>
-        <a rel="noopener" target="_blank" href="https://github.com/joshwcorbett" class="big-link github">Github</a>
+  <div class="row articles">
+    <div class="column articles__text">
+      <p>I love sharing ideas and content in bite-sized blog posts!</p>
+    </div>
+    <div class="column articles__list">
+      <div class="articles__list__container">
+        {% for article in site.articles %}
+          <a href="{{ article.url }}" class="articles__list__container__item w-100">
+            <span class="articles__list__container__item__title">{{ article.title }}</span>
+            <div class="articles__list__container__item__tags">
+              {% if article.tags.size > 0 %}
+                Tag{% if article.tags.size > 1 %}s{% endif %}:
+                {{ article.tags | sort | join: ", " }}
+              {% endif %}
+            </div>
+          </a>
+        {% endfor %}
       </div>
-		</div>
-		<div class="site-foot__end row center-xs">
-			<div class="col-xs-8">
-				<p>Made with <span class="heart">&#9829;</span> by Josh Corbett</p>
-			</div>
-		</div>
-	</footer>
+    </div>
+  </div>
 
-</body>
-</html>
+</div>
+
+<div class="site-section social w-100" id="social">
+  <h2 class="w-100 center-text header uppercase super">Follow Me</h2>
+
+  <div class="social-container">
+    <div class="social-container__list container">
+      <a target="_blank" href="https://instagram.com/joshwcorbett" class="social-container__list__item uppercase super instagram">Instagram</a>
+      <a target="_blank" href="https://dribbble.com/joshwcorbett" class="social-container__list__item uppercase super dribbble">Dribbble</a>
+      <a target="_blank" href="https://linkedin.com/in/joshwcorbett" class="social-container__list__item uppercase super linkedin">LinkedIn</a>
+    </div>
+  </div>
+</div>
+
+<div class="contact w-100" id="contact">
+  <div class="container">
+    <h2 class="w-100 header uppercase super">Let's Get In Touch!</h2>
+    <p>If you like what you see and want to talk about a project, or just strike a conversation… shoot me an email bro!</p>
+    <a href="mailto:joshwcorbett@icloud.com">joshwcorbett@icloud.com</a>
+  </div>
+</div>

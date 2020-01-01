@@ -1,2 +1,13 @@
-*.sass-cache
-*.DS_Store
+### Jekyll ###
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+### Sass ###
+*.css.map
+*.sass.map
+*.scss.map
+
+### macOS ###
+.DS_Store
