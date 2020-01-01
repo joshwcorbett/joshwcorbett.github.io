@@ -1,3 +1,13 @@
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-103579561-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'UA-103579561-1');
+</script>
+
 <meta charset="UTF-8">
 <link href="http://gmpg.org/xfn/11" rel="profile">
 
@@ -6,14 +16,14 @@
 
 <title>
   {% if page.title == "Home" %}
-  {{ site.title }} | {{ site.tagline }}
+    {{ site.title }} | Graphics and Web Designer and Developer in Montana
   {% else %}
-  {{ page.title }} | {{ site.title }}
+    {{ page.title }} | {{ site.title }}
   {% endif %}
 </title>
 
 <!-- CSS -->
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/stylesheet.css">
+<link rel="stylesheet" href="{{ site.url }}/assets/css/stylesheet.css">
 
 <!-- Javascript -->
-<script src="{{ site.baseurl }}/assets/js/scripts.js"></script>
+<script src="{{ site.url }}/assets/js/scripts.js"></script>

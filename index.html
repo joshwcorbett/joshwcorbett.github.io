@@ -37,7 +37,7 @@ title: home
     {% for project in site.projects %}
       <a href="{{project.url}}" class="projects__item">
         <div class="projects__item__img">
-          <img src="{{ site.baseurl }}/assets/img/{{project.image}}" alt="{{ project.title }} image">
+          <img src="{{ site.url }}/assets/img/{{project.image}}" alt="{{ project.title }} image">
         </div>
         <div class="projects__item__info">
           <span class="projects__item__info__title">{{ project.title }}</span>
