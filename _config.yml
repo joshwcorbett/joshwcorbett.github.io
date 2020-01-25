@@ -12,9 +12,7 @@ plugins:
   - sprockets-sass
   - jekyll-sitemap
   - jekyll-minifier
-
-disabled_plugins:
-  - jekyll-admin
+  - jekyll-autoprefixer
 
 collections:
   projects:
@@ -42,9 +40,7 @@ sass:
 
 jekyll_admin:
   hidden_links:
-    - articles
-    - projects
-    - pages
-    - staticfiles
-    - datafiles
-    - configuration
+    - posts
+
+exclude:
+  - .jekyll-cache
