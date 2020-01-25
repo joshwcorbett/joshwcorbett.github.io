@@ -7,7 +7,7 @@ group :jekyll_plugins do
   gem 'sprockets-sass', '~> 1.3', '>= 1.3.1'
   gem 'jekyll-sitemap', '~> 1.4'
   gem 'jekyll-minifier', '~> 0.1.10'
-  # gem 'jekyll-admin', '~> 0.9.0'
+  gem 'jekyll-autoprefixer'
 end
 
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
