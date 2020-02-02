@@ -25,3 +25,4 @@ fields:
   description: Link to external project information
 pages:
 - _projects/email-app.md
+- _projects/soundcloud-app.md
