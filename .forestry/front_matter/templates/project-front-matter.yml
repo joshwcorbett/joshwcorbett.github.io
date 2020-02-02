@@ -24,5 +24,6 @@ fields:
   label: project_link
   description: Link to external project information
 pages:
+- _projects/amazon-app.md
 - _projects/email-app.md
 - _projects/soundcloud-app.md
