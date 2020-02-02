@@ -1,1 +1,5 @@
 require "sprockets-sass"
+require "jekyll-feed"
+require "jekyll-sitemap"
+require "jekyll-minifier"
+require "jekyll-autoprefixer"
