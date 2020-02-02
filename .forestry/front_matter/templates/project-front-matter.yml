@@ -5,12 +5,21 @@ fields:
 - type: text
   name: title
   label: title
+  config:
+    required: true
 - type: file
   name: image
   label: image
 - type: number
   name: type
   label: type
+  description: '0: Design Concept; 1: Client Project'
+  config:
+    min: '0'
+    max: '1'
+    required: false
+  default: '0'
 - type: text
   name: project_link
   label: project_link
+  description: Link to external project information
