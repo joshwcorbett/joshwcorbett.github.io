@@ -2,17 +2,21 @@
 <html lang="en">
 
 <head>
+  <!-- include important page information -->
   {% include head.html %}
 </head>
 
 <body>
 
+  <!-- Show header -->
   {% include header.html %}
 
+  <!-- Show site content -->
   <main class="site-main">
     {{content}}
   </main>
 
+  <!-- Show footer except on 404 page -->
   {% if page.title != 404 %}
     {% include footer.html %}
   {% endif %}
