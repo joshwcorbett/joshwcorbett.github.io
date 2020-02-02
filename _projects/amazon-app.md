@@ -1,7 +1,7 @@
 ---
 title: Amazon App Redesign
 image: "/assets/img/amazon-video.png"
-type: 
+type: 0
 project_link: https://instagram.com/p/Bw04Evuh3bS/
 
 ---
