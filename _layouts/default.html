@@ -13,7 +13,13 @@
     {{content}}
   </main>
 
-  {% include footer.html %}
+  {% if page.title != 404 %}
+    {% include footer.html %}
+  {% endif %}
+
+
+  <!-- Javascript -->
+  <script src="{{ site.url }}/assets/js/scripts.js"></script>
 
 </body>
 

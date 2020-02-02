@@ -5,6 +5,15 @@ baseurl:          "" # the subpath of your site, e.g. /blog
 url:              "https://joshcorbett.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  joshwcorbett
 
+# 0: Open to Projects
+# 1: Busy with Existing Projects
+project_status: 0
+
+# Social Media
+instagram_followers: 25K
+linkedin_followers:  41
+dribbble_followers:  51
+
 # Build settings
 markdown: kramdown
 plugins:
@@ -20,7 +29,7 @@ collections:
     permalink: /project/:title
   articles:
     output: true
-    permalink: /article/:title
+    pemalink: /article/:title
 
 defaults:
   - scope:

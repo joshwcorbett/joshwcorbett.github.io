@@ -3,98 +3,93 @@ layout: default
 title: home
 ---
 
-<div class="hero" id="intro">
+<div class="site-hero container" id="intro">
 
-  <h1 class="super caps hero__text">I Make Digital Experiences</h1>
+  <h1 class="site-hero__text">Josh Corbett is a Designer and  Front-End Web Developer.</h1>
 
-  <!-- Cool Center Graphic -->
-  <img id="coolGraphicSlashes" src="assets/img/coolgraphic-slashes.svg">
-  <img id="coolGraphicCircle" src="assets/img/coolgraphic-circle.svg">
-
-  <!-- All the fun shapes -->
-  <img id="semicircle" src="assets/img/semicircle.svg">
-  <img id="semicircle-2" src="assets/img/semicircle-2.svg">
-  <img id="circle" src="assets/img/circle.svg">
-  <img id="triangle" src="assets/img/triangle.svg">
-  <img id="square-1" src="assets/img/square-1.svg">
-  <img id="square-2" src="assets/img/square-2.svg">
-
-  <a href="#projects" class="btn btn--white hero__btn uppercase super">
-    No Way! Show Me
-    <svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" stroke-miterlimit="1.5" clip-rule="evenodd"
-      viewBox="0 0 32 27">
-      <defs />
-      <path fill="none" stroke="#000" stroke-width="5.98" d="M1117.84 854.94l10.62 10.62 10.62-10.62-10.62 10.62v-26.309"
-        transform="matrix(0 -.83616 .83616 0 -697.239 956.96)" />
-    </svg>
-  </a>
+  <div class="site-hero__buttons">
+    <a href="#projects" class="btn btn--grey btn--special">My Work</a>
+    <a href="mailto:{{ site.email }}" class="btn btn--transparent">Email Me</a>
+  </div>
 </div>
 
-<div class="site-section container" id="projects">
-  <h2 class="w-100 center-text header uppercase super">Projects</h2>
+<div class="site-section w-100 site-about" id="about">
+  <div class="container site-about__container">
+    <div class="site-about__container__profile">
+      <div class="site-about__container__profile__img">
+        <img src="{{ site.url }}/assets/img/profile.jpeg" alt="A super awesome picture of me yay!">
+      </div>
+      <div class="site-about__container__profile__content">
+        <h3>About Me</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat debitis sit repudiandae sunt amet minima, saepe aliquid omnis, magni rem exercitationem, ut aliquam laboriosam illo ex dicta quibusdam asperiores nesciunt.</p>
+      </div>
+    </div>
+    <div class="site-about__container__social">
+      <a target="_blank" href="https://instagram.com/joshwcorbett">
+        <span>Instagram</span>
+        <span>{{ site.instagram_followers }}</span>
+      </a>
+      <a target="_blank" href="https://dribbble.com/joshwcorbett">
+        <span>Dribbble</span>
+        <span>{{ site.dribbble_followers }}</span>
+      </a>
+      <a target="_blank" href="https://linkedin.com/in/joshwcorbett">
+        <span>LinkedIn</span>
+        <span>{{ site.linkedin_followers }}</span>
+      </a>
+    </div>
+  </div>
+</div>
 
-  <div class="projects w-100">
+<div class="site-section container top-spacing" id="projects">
+  <h3 class="w-100 site-section__title">Featured Projects</h3>
+
+  <div class="cards projects w-100">
     {% for project in site.projects %}
-      <a href="{{project.url}}" class="projects__item">
-        <div class="projects__item__img">
-          <img src="{{ site.url }}/assets/img/{{project.image}}" alt="{{ project.title }} image">
+      <a href="{{project.url}}" class="cards__item">
+        {% if project.type != null %}
+          {% if project.type == 0 %}
+            <div class="project-type concept">
+              Design Concept
+            </div>
+          {% elsif project.type == 1 %}
+            <div class="project-type client">
+              Client Project
+            </div>
+          {% endif %}
+        {% endif %}
+        <div class="cards__item__img">
+          <img src="{{ site.url }}/assets/img/{{project.image}}" alt="{{ project.title }} image preview">
         </div>
-        <div class="projects__item__info">
-          <span class="projects__item__info__title">{{ project.title }}</span>
-          <div class="projects__item__info__tags">
-            {% if project.tags.size > 0 %}
-              Tag{% if project.tags.size > 1 %}s{% endif %}:
-              {{ project.tags | sort | join: ", " }}
-            {% endif %}
-          </div>
+        <div class="cards__item__info">
+          <span class="cards__item__info__title">
+            {{ project.title }}
+          </span>
         </div>
       </a>
     {% endfor %}
   </div>
 </div>
 
-<div class="site-section container" id="articles">
-  <h2 class="w-100 center-text header uppercase super">Articles</h2>
-
-  <div class="row articles">
-    <div class="column articles__text">
-      <p>I love sharing ideas and content in bite-sized blog posts!</p>
+{% if site.articles.size != 0 %}
+  <div class="site-section top-spacing" id="articles">
+    <div class="container">
+      <h3 class="w-100 site-section__title">Blog</h3>
     </div>
-    <div class="column articles__list">
-      <div class="articles__list__container">
-        {% for article in site.articles %}
-          <a href="{{ article.url }}" class="articles__list__container__item w-100">
-            <span class="articles__list__container__item__title">{{ article.title }}</span>
-            <div class="articles__list__container__item__tags">
-              {% if article.tags.size > 0 %}
-                Tag{% if article.tags.size > 1 %}s{% endif %}:
-                {{ article.tags | sort | join: ", " }}
-              {% endif %}
-            </div>
-          </a>
-        {% endfor %}
-      </div>
+    <div class="blog-posts cards">
+      <div class="overflow-left"><span>scroll</span></div>
+      <div class="overflow-right"><span>scroll</span></div>
+
+      {% for article in site.articles %}
+        <a href="{{ article.url }}" class="cards__item">
+          <div class="cards__item__img">
+            <img src="{{ site.url }}/assets/img/{{ article.image }}" alt="{{ article.title }} image preview">
+          </div>
+          <div class="cards__item__info">
+            <span class="cards__item__info__title">{{ article.title }}</span>
+          </div>
+        </a>
+      {% endfor %}
     </div>
   </div>
-
-</div>
-
-<div class="site-section social w-100" id="social">
-  <h2 class="w-100 center-text header uppercase super">Follow Me</h2>
-
-  <div class="social-container">
-    <div class="social-container__list container">
-      <a target="_blank" href="https://instagram.com/joshwcorbett" class="social-container__list__item uppercase super instagram">Instagram</a>
-      <a target="_blank" href="https://dribbble.com/joshwcorbett" class="social-container__list__item uppercase super dribbble">Dribbble</a>
-      <a target="_blank" href="https://linkedin.com/in/joshwcorbett" class="social-container__list__item uppercase super linkedin">LinkedIn</a>
-    </div>
-  </div>
-</div>
-
-<div class="contact w-100" id="contact">
-  <div class="container">
-    <h2 class="w-100 header uppercase super">Let's Get In Touch!</h2>
-    <p>If you like what you see and want to talk about a project, or just strike a conversation… shoot me an email bro!</p>
-    <a href="mailto:joshwcorbett@icloud.com">joshwcorbett@icloud.com</a>
-  </div>
-</div>
+{% endif %}

@@ -2,20 +2,41 @@
 layout: default
 ---
 
-<div class="post__bg w-100" style="background-image: url('/assets/img/{{page.image}}')"></div>
 <div class="post">
-  <div class="post__content">
-    <div class="post__content__header">
-      <h4 class="super caps post-title w-100 center-text">{{ page.title }}</h4>
-      <div class="post-tags w-100 center-text">
-        {% if page.tags.size > 0 %}
-          Tag{% if page.tags.size > 1 %}s{% endif %}:
-          {{ page.tags | sort | join: ", " }}
-        {% endif %}
-      </div>
+  <div class="post__banner container" style="background-image: url('{{ site.url }}/assets/img/{{ page.image }}')">
+    <div class="post__banner__overlay"></div>
+    <h3 class="post__banner__title">{{ page.title }}</h3>
+    {% if page.date != null %}
+    <div class="post__banner__data">
+      {% if page.type != null %}
+        {% if page.type == 0 %}
+          Design Concept
+        {% elsif page.type == 1 %}
+          Client Project
+        {% endif %} |
+      {% endif %}
+
+      {% if page.tags.size > 0 %}
+        Tag{% if page.tags.size > 1 %}s{% endif %}:
+        {{ page.tags | sort | join: ", " }} |
+      {% endif %}
+
+      {{ page.date | date: "%B %-d, %Y" }}
     </div>
+    {% endif %}
+  </div>
+  <div class="post__content container">
 
     {{ content }}
 
+    {% if page.project_link != null %}
+      <div class="post__link">
+        <a class="btn btn--large btn--grey btn--special" target="_blank" href="{{ page.project_link }}">Open Project Link</a target="_blank">
+      </div>
+    {% elsif page.blog_link != null %}
+      <div class="post__link">
+        <a class="btn btn--large btn--grey btn--special" target="_blank" href="{{ page.blog_link }}">Attached Link</a class="btn btn--large btn--grey btn--special">
+      </div>
+    {% endif %}
   </div>
 </div>
