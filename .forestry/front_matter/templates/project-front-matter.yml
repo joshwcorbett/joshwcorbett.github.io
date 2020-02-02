@@ -25,5 +25,6 @@ fields:
   description: Link to external project information
 pages:
 - _projects/amazon-app.md
+- _projects/dafont.md
 - _projects/email-app.md
 - _projects/soundcloud-app.md

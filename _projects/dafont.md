@@ -1,10 +1,10 @@
 ---
 title: Dafont Logo Redesign
-image: '/assets/img/dafont.png'
-type: 0
-project_link: 'https://dribbble.com/shots/6451159-Dafont-Branding'
----
+image: "/assets/img/dafont.png"
+type: 
+project_link: https://dribbble.com/shots/6451159-Dafont-Branding
 
+---
 The iconic free fonts website: dafont, has become one of the go-to places when you need to spice up your documents.
 It also hasn’t had any visual updates in ages.
 
