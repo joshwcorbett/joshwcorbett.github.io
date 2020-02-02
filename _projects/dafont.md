@@ -1,6 +1,6 @@
 ---
 title: Dafont Logo Redesign
-image: 'dafont.png'
+image: '/assets/img/dafont.png'
 type: 0
 project_link: 'https://dribbble.com/shots/6451159-Dafont-Branding'
 ---

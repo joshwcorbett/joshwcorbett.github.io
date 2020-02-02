@@ -59,7 +59,7 @@ title: home
           {% endif %}
         {% endif %}
         <div class="cards__item__img">
-          <img src="{{ site.url }}/assets/img/{{project.image}}" alt="{{ project.title }} image preview">
+          <img src="{{ project.image }}" alt="{{ project.title }} image preview">
         </div>
         <div class="cards__item__info">
           <span class="cards__item__info__title">
@@ -83,7 +83,7 @@ title: home
       {% for article in site.articles %}
         <a href="{{ article.url }}" class="cards__item">
           <div class="cards__item__img">
-            <img src="{{ site.url }}/assets/img/{{ article.image }}" alt="{{ article.title }} image preview">
+            <img src="{{ article.image }}" alt="{{ article.title }} image preview">
           </div>
           <div class="cards__item__info">
             <span class="cards__item__info__title">{{ article.title }}</span>
