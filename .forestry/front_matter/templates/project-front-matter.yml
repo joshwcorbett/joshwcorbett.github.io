@@ -23,3 +23,5 @@ fields:
   name: project_link
   label: project_link
   description: Link to external project information
+pages:
+- _projects/email-app.md

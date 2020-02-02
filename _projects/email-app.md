@@ -1,7 +1,7 @@
 ---
 title: Email App Concept
 image: "/assets/img/email-app.png"
-type: "0"
+type: 0
 project_link: https://dribbble.com/shots/8198592-Email-App-Concept
 
 ---
