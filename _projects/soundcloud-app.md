@@ -3,6 +3,7 @@ title: Soundcloud Redesign Concept
 image: soundcloud.png
 tags:
 - App Design
+- UI
 
 ---
 I feel like Soundcloud's app has been falling behind design trends lately.
