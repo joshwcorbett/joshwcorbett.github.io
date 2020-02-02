@@ -1,0 +1,16 @@
+---
+label: Project Front Matter
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: file
+  name: image
+  label: image
+- type: number
+  name: type
+  label: type
+- type: text
+  name: project_link
+  label: project_link
