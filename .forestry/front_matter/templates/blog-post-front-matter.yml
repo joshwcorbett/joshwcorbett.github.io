@@ -15,3 +15,5 @@ fields:
 - type: text
   name: image
   label: image
+pages:
+- _articles/best-free-design-tools-for-2020.md
