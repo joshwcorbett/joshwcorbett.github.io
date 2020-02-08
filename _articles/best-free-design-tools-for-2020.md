@@ -21,6 +21,10 @@ Now keep in mind that these are just tools, and tools do not make you a better d
 
 Arguably the best tool for prototyping on the block, and for free I might add. This tool was built around collaboration and teamwork, and with the new 'community' tab you can engage with the figma community by re-creating featured designs.
 
+What sets this apart is that it's entirely web-based, but you can still download a Figma client for MacOS and Windows. This means that you access and design from most any web browser on any computer.
+
+[Figma](figma.com)
+
 ##### 02. Adobe XD
 
 [?u=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1600%2F1*D7zQkGD0W7fIZcCWnd0XrQ.png&f=1&nofb=1](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1600%2F1*D7zQkGD0W7fIZcCWnd0XrQ.png&f=1&nofb=1 "?u=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1600%2F1*D7zQkGD0W7fIZcCWnd0XrQ.png&f=1&nofb=1")
@@ -32,6 +36,8 @@ _Note: Adobe will be implementing a 'pro' plan within XD in an upcoming April 20
 * _Share document links,_
 * _Invite others to XD documents,_
 * _Saving XD files locally to your computer._
+
+[Adobe XD](https://www.adobe.com/products/xd.html)
 
 ##### 03. Invision Studio
 
