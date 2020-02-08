@@ -16,7 +16,7 @@ Now keep in mind that these are just tools, and tools do not make you a better d
 
 ##### 01. Figma
 
-[?u=https%3A%2F%2Fwww.coherentlab.com%2Fblog%2Fwp-content%2Fuploads%2F2019%2F01%2FFigma_1_988_500.png&f=1&nofb=1](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.coherentlab.com%2Fblog%2Fwp-content%2Fuploads%2F2019%2F01%2FFigma_1_988_500.png&f=1&nofb=1 "?u=https%3A%2F%2Fwww.coherentlab.com%2Fblog%2Fwp-content%2Fuploads%2F2019%2F01%2FFigma_1_988_500.png&f=1&nofb=1")
+[?u=http%3A%2F%2Fnetdna.webdesignerdepot.com%2Fuploads%2F2017%2F03%2Ffeatured_figma.jpg&f=1&nofb=1](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fnetdna.webdesignerdepot.com%2Fuploads%2F2017%2F03%2Ffeatured_figma.jpg&f=1&nofb=1 "?u=http%3A%2F%2Fnetdna.webdesignerdepot.com%2Fuploads%2F2017%2F03%2Ffeatured_figma.jpg&f=1&nofb=1")
 
 Arguably the best tool for prototyping on the block, and for free I might add. This tool was built around collaboration and teamwork, and with the new 'community' tab you can engage with the figma community by re-creating featured designs.
 
@@ -26,7 +26,7 @@ What sets this apart is that it's entirely web-based, but you can still download
 
 ##### 02. Adobe XD
 
-[?u=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1600%2F1*D7zQkGD0W7fIZcCWnd0XrQ.png&f=1&nofb=1](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1600%2F1*D7zQkGD0W7fIZcCWnd0XrQ.png&f=1&nofb=1 "?u=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1600%2F1*D7zQkGD0W7fIZcCWnd0XrQ.png&f=1&nofb=1")
+[?u=https%3A%2F%2Fblogsimages.adobe.com%2Fcreative%2Ffiles%2F2017%2F10%2FXD_Device-Preview3-1799x1010.jpg&f=1&nofb=1](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblogsimages.adobe.com%2Fcreative%2Ffiles%2F2017%2F10%2FXD_Device-Preview3-1799x1010.jpg&f=1&nofb=1 "?u=https%3A%2F%2Fblogsimages.adobe.com%2Fcreative%2Ffiles%2F2017%2F10%2FXD_Device-Preview3-1799x1010.jpg&f=1&nofb=1")
 
 Adobe has established itself as the leader in creative software in the industry, and it shows in Adobe XD. It's very quick and easy to use and does a stellar job at prototyping and UI design. The best part is that it's like the only piece of software from Adobe that doesn't require a Creative Cloud subscription.
 
@@ -40,7 +40,7 @@ _Note: Adobe will be implementing a 'pro' plan within XD in an upcoming April 20
 
 ##### 03. Invision Studio
 
-[?u=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1600%2F1*4gw-7fZw-GzCtQs8FF9mIw.gif&f=1&nofb=1](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1600%2F1*4gw-7fZw-GzCtQs8FF9mIw.gif&f=1&nofb=1 "?u=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1600%2F1*4gw-7fZw-GzCtQs8FF9mIw.gif&f=1&nofb=1")
+[?u=https%3A%2F%2Fs3.amazonaws.com%2Fwww.invisionapp.com-studio%2Fstatic%2Fimg%2Fopen-laptop-sm-2x.png&f=1&nofb=1](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs3.amazonaws.com%2Fwww.invisionapp.com-studio%2Fstatic%2Fimg%2Fopen-laptop-sm-2x.png&f=1&nofb=1 "?u=https%3A%2F%2Fs3.amazonaws.com%2Fwww.invisionapp.com-studio%2Fstatic%2Fimg%2Fopen-laptop-sm-2x.png&f=1&nofb=1")
 
 Invision has been making designer's lives easier with it's collaboration and teamwork-centered feature set. Now they've created Invision Studio, local software for designing interfaces much like Adobe XD and Figma. My favorite part about Invision Studio is the dark interface, much easier on the eyes for long design sessions.
 
