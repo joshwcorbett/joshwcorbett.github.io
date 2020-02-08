@@ -35,6 +35,8 @@ _Note: Adobe will be implementing a 'pro' plan within XD in an upcoming April 20
 
 ##### 03. Invision Studio
 
+[?u=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1600%2F1*4gw-7fZw-GzCtQs8FF9mIw.gif&f=1&nofb=1](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1600%2F1*4gw-7fZw-GzCtQs8FF9mIw.gif&f=1&nofb=1 "?u=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1600%2F1*4gw-7fZw-GzCtQs8FF9mIw.gif&f=1&nofb=1")
+
 Invision has been making designer's lives easier with it's collaboration and teamwork-centered feature set. Now they've created Invision Studio, local software for designing interfaces much like Adobe XD and Figma. My favorite part about Invision Studio is the dark interface, much easier on the eyes for long design sessions.
 
 What really sets Invision Studio apart is the timeline editor for prototyping. Giving you advanced control over your animations and prototypes.
@@ -43,11 +45,15 @@ Because it's made by Invision, there is seamless integration with the online Inv
 
 My only complaint is the alignment guides are mediocre at best, hoping this gets fixed in a coming update.
 
+[Invision Studio](https://www.invisionapp.com/studio)
+
 ## Wireframing
 
 ***
 
 ##### 04. Invision Freehand
+
+[?u=https%3A%2F%2Fs3.amazonaws.com%2Fblog.invisionapp.com%2Fuploads%2F2017%2F07%2Finv-freehand-thumb.png&f=1&nofb=1](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs3.amazonaws.com%2Fblog.invisionapp.com%2Fuploads%2F2017%2F07%2Finv-freehand-thumb.png&f=1&nofb=1 "?u=https%3A%2F%2Fs3.amazonaws.com%2Fblog.invisionapp.com%2Fuploads%2F2017%2F07%2Finv-freehand-thumb.png&f=1&nofb=1")
 
 Another great addition to the Invision ecosystem, is the ability to sketch ideas and interfaces on an infinite canvas with collaborators.
 
@@ -55,16 +61,24 @@ This is a free feature and is accessible from the 'freehand' tab of your project
 
 Ofcourse you can use any of the above to wireframe, but this is a great way to find ideas and user flows before taking the next step of designing in high-fidelity.
 
-##### 05. Wireframe CC
-
-A tool similar to figma in regards to the fact that it's online-based, is another great, minimalistic tool for drawing shapes and assigning what kind of object the shape is. The rest is all drag and drop.
-
-I haven't used this software enough to give you my full opinion on it, but it is 100% free.
-
 ## Web Development
 
 ***
 
-##### 06. Webflow
+##### 05. Webflow
+
+[?u=https%3A%2F%2Fwww.weetechsolution.com%2Fupload%2FCreate-gorgeous-web-animations-just-by-dragging-and-dropping-using-Webflow.png&f=1&nofb=1](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.weetechsolution.com%2Fupload%2FCreate-gorgeous-web-animations-just-by-dragging-and-dropping-using-Webflow.png&f=1&nofb=1 "?u=https%3A%2F%2Fwww.weetechsolution.com%2Fupload%2FCreate-gorgeous-web-animations-just-by-dragging-and-dropping-using-Webflow.png&f=1&nofb=1")
 
 Website builders are typically never a good option for building your website, because looking at it always looks like a massive mountain of unnecessary spaghetti code. Webflow does things differently with functionality that works similar to traditional web development... minus the coding part.
+
+[Webflow](https://webflow.com/?rfsn=3746645.054f6a)
+
+## Conclusion
+
+***
+
+I wish this list was longer, but with the increasingly advanced software being introduced, it's getting harder to find ways to keep the development well-funded without introducing a pricing system. I'm sure there are many design programs I haven't included, but I wanted to include what I knew best and could give a strong opinion of.
+
+Again, these are just tools... they won't make you a better designer, but they will make your life easier as you progress in your creative journey.
+
+Thanks for reading and I hope to continue producing weekly posts for my website, so if you want to see more stay tuned!
