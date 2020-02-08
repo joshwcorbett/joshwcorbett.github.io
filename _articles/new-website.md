@@ -1,5 +1,5 @@
 ---
-title: The Meaning of a Website
+title: The Meaning of a Portfolio Website
 date: 2020-02-01
 image: https://bit.ly/2RPkldD
 
