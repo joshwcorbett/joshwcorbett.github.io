@@ -62,9 +62,9 @@ My only complaint is the alignment guides are mediocre at best, hoping this gets
 
 Another great addition to the Invision ecosystem, is the ability to sketch ideas and interfaces on an infinite canvas with collaborators.
 
-This is a free feature and is accessible from the 'freehand' tab of your projects page.
-
 Ofcourse you can use any of the above to wireframe, but this is a great way to find ideas and user flows before taking the next step of designing in high-fidelity.
+
+This is a free feature and is accessible from the 'freehand' tab of your projects page.
 
 ## Web Development
 
