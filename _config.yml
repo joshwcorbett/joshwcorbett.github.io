@@ -15,13 +15,19 @@ linkedin_followers:  41
 dribbble_followers:  51
 
 # Build settings
-markdown: kramdown
+markdown: CommonMark
+commonmark:
+  options: ["SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table"]
+
 plugins:
   - jekyll-feed
   - sprockets-sass
   - jekyll-sitemap
   - jekyll-minifier
   - jekyll-autoprefixer
+  - jekyll-commonmark
+  - jekyll-include-cache
 
 collections:
   projects:
@@ -53,3 +59,5 @@ jekyll_admin:
 
 exclude:
   - .jekyll-cache
+
+incremental: true
