@@ -2,7 +2,6 @@
 date: 2020-02-16 17:03:09 -0700
 title: The best secret to designing for mobile
 image: https://bit.ly/38EXuri
-published: false
 
 ---
 When tasked with designing or developing an interface of any sort, whether that be websites, apps, etc., there will be a variety of different screen sizes that will be accessing and using these interfaces. While we're in a time where mobile devices are accessing websites just as frequently as desktop users, it's important that all elements of the site adapt to each screen size to appeal to half of the website visitors. 
