@@ -1,9 +1,9 @@
 ---
-title: New Website
+title: The Meaning of a Portfolio Website
 date: 2020-02-01
-image: 'https://bit.ly/2RPkldD'
----
+image: https://bit.ly/2RPkldD
 
+---
 I'm pleased to announce my new website! A place to connect better with my clients and audience members from Instagram.
 
 One thing that has been the most difficult for me in this process has been deciding on a design language and a flow that I'm happy with. I recently listened to a piece from Chris Do about being too attached to projects that are in some way personal.
