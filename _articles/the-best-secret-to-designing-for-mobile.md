@@ -15,7 +15,9 @@ We've created a masterpiece for the desktop, where all of the elements are craft
 
 Is there an alternative approach? A method that will simplify the mobile experience AND the desktop experience without even trying too hard? An approach that makes all layout make more sense and give everything some room to breathe?
 
-Yes, and it's so easy that it's almost stupid.
+Yes, and it's so easy that it's almost stupid...
+
+##### Designing Mobile-First
 
 Design you're mobile layouts first, and then scale that layout to your tablet and desktop sizes. Here's why:
 
@@ -24,3 +26,7 @@ Once you've figured out a good layout and design for a smaller screen size, it b
 This technique is one of many for designing for multiple screen sizes, but designing mobile-first is unarguably the most effective.
 
 The downside to designing on mobile is there's less canvas room if you're trying to be creative. So if you're designing a website with lots of fancy graphics and illustrations, it may be easier to display the fancier elements of your websites by designing on a larger canvas first. But we also must realize that the content and UX matters more than anything, including fancy illustrations and graphics.
+
+##### Summary
+
+Designing desktop-first is a hard habit to break, after all there's so much more room to be creative, but this approach hurts smaller screen designs more often than not. Designing for mobile first lets us expand on an already-simplified layout, making things more minimal with more opportunity for whitespace.
