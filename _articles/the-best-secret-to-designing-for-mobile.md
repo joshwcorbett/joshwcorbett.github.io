@@ -17,4 +17,10 @@ Is there an alternative approach? A method that will simplify the mobile experie
 
 Yes, and it's so easy that it's almost stupid.
 
-Design you're mobile layouts first, and then scale that layout to your tablet and desktop sizes.
+Design you're mobile layouts first, and then scale that layout to your tablet and desktop sizes. Here's why:
+
+Once you've figured out a good layout and design for a smaller screen size, it becomes easier to scale that layout out to larger screens. This is because you've already found a way to show your data and information in a simplified manner, and when designing the larger screens -all that's needed to be done is to re-position things and make it larger for desktop.
+
+This technique is one of many for designing for multiple screen sizes, but designing mobile-first is unarguably the most effective.
+
+The downside to designing on mobile is there's less canvas room if you're trying to be creative. So if you're designing a website with lots of fancy graphics and illustrations, it may be easier to display the fancier elements of your websites by designing on a larger canvas first. But we also must realize that the content and UX matters more than anything, including fancy illustrations and graphics.
