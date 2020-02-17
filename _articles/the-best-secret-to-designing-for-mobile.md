@@ -5,3 +5,8 @@ image: https://bit.ly/38EXuri
 published: false
 
 ---
+When tasked with designing or developing an interface of any sort, whether that be websites, apps, etc., there will be a variety of different screen sizes that will be accessing and using these interfaces. While we're in a time where mobile devices are accessing websites just as frequently as desktop users, it's important that all elements of the site adapt to each screen size to appeal to half of the website visitors. 
+
+Designing for mobile has become a standard that most certainly should be met, but it's also not an easy task most times.
+
+When designing a website, our natural instinct is to create a canvas that suits larger, desktop-sized screens. Because why wouldn't we? It makes sense that we would first design for desktop... on a desktop. After the desktop design is complete, we then begin designing for smaller screens.
