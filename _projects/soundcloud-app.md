@@ -1,7 +1,7 @@
 ---
 title: Soundcloud Redesign Concept
-image: "/assets/img/soundcloud.png"
-type: 0
+image: "/assets/img/soundcloud.jpg"
+type: 
 project_link: https://dribbble.com/shots/7189221-Soundcloud-Concept
 
 ---
