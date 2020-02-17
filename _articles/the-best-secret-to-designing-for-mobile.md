@@ -1,7 +1,7 @@
 ---
 date: 2020-02-17T00:03:09.000+00:00
 title: The Best Secret to Designing for Mobile
-image: https://www.dropbox.com/s/tc6he79c2wucnzl/01.png?dl=0
+image: https://previews.dropbox.com/p/thumb/AAuOaHINnZWGdQFvf_Ajzfs-44FVpR0JqR4Vv315S_SD9YQCMTw1R5YNVeFefIhGJERY4x_B4pByyMsIp8yANshblvrjjScVJ3Yd-7b_x7gfAHS-FZaSwZ10GDXeZQL2MQz-L1-O5MuAsVOUhqvA4hZtZiXGGh-sj18cJsKrE-KK_-NSavx6HVYGRrecwYTjx4h-dvcFPVpmVcR4afGz08V_u1V0-UwyNZumST6Ta5p_7HWb588DWXvrBx8OPMO6x3rYNRd_6x-WZfWBOE1bBfwSag-Fh22YNSP6t-DS0-N71P6zpAxFHsqA0LtBaCX_q1_BoKdatW0XmT3ncYax27L8/p.png?fv_content=true&size_mode=5
 
 ---
 When tasked with designing or developing an interface of any sort, whether that be websites, apps, etc., there will be a variety of different screen sizes that will be accessing and using these interfaces. While we're in a time where mobile devices are accessing websites just as frequently as desktop users, it's important that all elements of the site adapt to each screen size to appeal to half of the website visitors. 
