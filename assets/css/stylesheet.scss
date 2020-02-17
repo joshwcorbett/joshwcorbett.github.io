@@ -101,6 +101,13 @@ body {
     width: 100%;
   }
 }
+noscript {
+  display: block;
+  width: 100%;
+  background-color: #fe346e;
+  color: white;
+  padding: 1em 0;
+}
 
 // Typography
 html,body {
@@ -141,6 +148,7 @@ a {
 .btn {
   display: flex;
   justify-content: center;
+  align-items: center;
   text-align: center;
   padding: 1em 1.35em;
 
@@ -183,6 +191,11 @@ a {
   }
   &:hover:not(.btn--transparent) {
     text-decoration: none;
+  }
+
+  svg {
+    margin-left: 0.5em;
+    width: 20px;
   }
 }
 
