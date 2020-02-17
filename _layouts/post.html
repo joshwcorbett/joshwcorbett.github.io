@@ -55,3 +55,21 @@ layout: default
     {% endif %}
   </div>
 </div>
+
+<script>
+  // Random colors
+    var colorsArray = [
+      "#1089ff",
+      "#00ffc4",
+      "#52de97",
+      "#f17362",
+      "#5f6caf",
+      "#05dfd7",
+      "#ff2e63",
+      "#ff9999",
+      "#00e0ff"
+    ]
+    var randomColor = colorsArray[Math.floor(Math.random() * colorsArray.length)];
+    var postBannerOverlay = document.querySelector(".post__banner__overlay");
+    postBannerOverlay.style.backgroundColor = randomColor;
+</script>
