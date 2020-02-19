@@ -1,7 +1,7 @@
 ---
 type: 1
 title: Canvas Church
-image: "/assets/img/unnamed.jpg"
+image: "/assets/img/canvaschurch.jpeg"
 project_link: https://canvas.church/
 
 ---
