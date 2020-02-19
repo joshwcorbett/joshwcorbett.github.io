@@ -1,7 +1,7 @@
 ---
 type: 
 title: Playstation 5 UI
-image: "/assets/img/01.jpg"
+image: "/assets/img/playstation5.jpeg"
 project_link: https://dribbble.com/shots/9949354-Playstation-5-UI-Concept
 
 ---
