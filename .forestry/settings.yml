@@ -17,6 +17,10 @@ sections:
   label: Projects
   create: all
   match: "**/*"
+- type: document
+  path: _config.yml
+  label: Configuration
+  match: "**/*"
 upload_dir: assets/img
 public_path: "/assets/img"
 front_matter_path: ''
