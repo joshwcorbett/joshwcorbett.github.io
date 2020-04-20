@@ -90,4 +90,4 @@ Thanks for reading and I hope to continue producing weekly posts for my website,
 
 ***
 
-For Further Reading on how to hire a great UI designer, check out this article from Toptal: [How to Hire a UI Designer](https://www.toptal.com/designers/ui/how-to-hire "How to Hire a UI Designer")
+For Further Reading on how to hire a great UI designer, check out this awesome article from Toptal: [How to Hire a UI Designer](https://www.toptal.com/designers/ui#hiring-guide "How to Hire a UI Designer")
