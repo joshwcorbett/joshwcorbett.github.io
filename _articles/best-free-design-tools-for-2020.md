@@ -88,4 +88,6 @@ Again, these are just tools... they won't make you a better designer, but they w
 
 Thanks for reading and I hope to continue producing weekly posts for my website, so if you want to see more stay tuned!
 
+***
+
 For Further Reading on how to hire a great UI designer, check out this article from Toptal: [How to Hire a UI Designer](https://www.toptal.com/designers/ui/how-to-hire "How to Hire a UI Designer")
