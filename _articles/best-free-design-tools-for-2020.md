@@ -1,5 +1,5 @@
 ---
-date: 2020-02-07 21:27:38 -0700
+date: 2020-02-08T04:27:38.000+00:00
 title: Top 5 Best Free Design Tools to use in 2020
 image: https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1575&q=80
 
@@ -87,3 +87,5 @@ I wish this list was longer, but with the increasingly advanced software being i
 Again, these are just tools... they won't make you a better designer, but they will make your life easier as you progress in your creative journey.
 
 Thanks for reading and I hope to continue producing weekly posts for my website, so if you want to see more stay tuned!
+
+For Further Reading on how to hire a great UI designer, check out this article from Toptal: [How to Hire a UI Designer](https://www.toptal.com/designers/ui/how-to-hire "How to Hire a UI Designer")
